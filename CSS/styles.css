@@ -6,8 +6,6 @@
     --color-body: #918ca4;
     --color-border: #ccc;
     --border-radius:30px;
-    
-
 }
 
 *,
@@ -17,8 +15,6 @@
 }
 
 /* Typography */
-
-
 h1, h2, h3, h4{
     color: var(--color-headings);
     margin-bottom: 1rem;
@@ -35,9 +31,7 @@ h3{
 p{
     margin-top: 2rem;
 }
-
-@media screen and (min-width: 1024px) {
-    
+@media screen and (min-width: 1024px) {   
     h1{
         font-size: 8rem;
     }
@@ -49,9 +43,26 @@ p{
     }
 }
 
+/* Cards */
+.card{
+    width: 30%;
+    border-radius: 10px;
+    border: var(--border-color);
+    box-shadow: 0 0 20px 10px var(--color-border);
+    overflow: hidden;
+    margin: 1rem;
+}
+.card__heading, .card__body{
+    padding: 1.5rem 2rem;
+}
+.card__primary{
+    background: var(--color-primary);
+    color: #fff;
+}
+
+
 /* Input Fields */
- 
-.input {
+ .input {
     border-radius: var(--border-radius);
     border: 1px solid var(--color-border);
     color: var(--color-headings);
@@ -69,11 +80,8 @@ p{
     border: 0px solid;
     outline: none;
     flex-grow: 1;
-    }
-
-/* .input-group .input::focus{
-    border:0;
-} */
+    padding: 1.5rem 1rem;
+}
 .input-group .btn{
     margin: 1px ;
 }
@@ -88,9 +96,7 @@ p{
 }
 
 /* Butoons */
-
 .btn{
-
     border-radius: 40px;
     border: 0;
     cursor: pointer;
@@ -102,9 +108,7 @@ p{
     white-space: nowrap;
     text-align: center;
     margin: 1rem 0;
-
 }
-
 .btn--primary{
     color:white;
     background: var(--color-primary);    
@@ -112,15 +116,12 @@ p{
 .btn--primary:hover{
     background: #38affd;
 }
-
 .btn--secondary{
     color:white;
-    background: var(--color-secondary);
-    
+    background: var(--color-secondary);    
 }
 .btn--secondary:hover{
     background: #00c8eb;
-    
 }
 .btn--accent{
     color: white;
@@ -129,18 +130,15 @@ p{
 .btn--accent:hover{
     background: #ec3000;
 }
-
 .btn--block{
     width: 99%;
     display: inline-block;
-
 }
 @media screen and (min-width: 1024px){
     .btn{
         font-size:15px
     }    
 }
-
 .btn--outline{
     background: #fff;
     color: var(--color-headings);
@@ -150,8 +148,6 @@ p{
     background: var(--color-headings);
     color: #fff;
 }
-
-
 
 /* Badges */
 .badge{
@@ -180,18 +176,14 @@ p{
         font-size: 1.2rem;
     }
 }
-
-
 .list {
     list-style: none;
     padding-left: 3rem;
     color: var(--color-headings);
 }
-
 .list--inline .list__item{
     display: inline-block;
 }
-
 .list--tick{
     list-style-image: url('../images/tick.svg');
 }
