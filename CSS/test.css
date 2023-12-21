@@ -1,0 +1,26 @@
+:root{
+    --color-dark: rgb(15, 23, 42);
+    --color-darktheme: #3f4177;
+}
+body{
+    font-family: 'Inter', sans-serif;
+    font-weight: SemiBold;
+    background-color: rgb(15, 23, 42);
+    padding: 1rem;
+}
+
+ h1 , .profession{
+    font-size: 5rem;
+  
+    background: var(--color-dark);
+    color:#fff;
+   
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.profession{
+    margin-top: 0;
+    font-size: 2.3rem;
+    padding-top: 0;
+}

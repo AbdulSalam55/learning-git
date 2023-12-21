@@ -6,6 +6,7 @@
     --color-body: #918ca4;
     --color-border: #ccc;
     --border-radius:30px;
+  
 }
 
 *,
@@ -224,9 +225,6 @@ p{
     align-content: center;
 }
 
-.test-container{
-    background-color: black;
-}
 
 
 html{
