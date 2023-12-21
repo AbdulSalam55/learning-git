@@ -177,7 +177,7 @@ p{
         font-size: 1.2rem;
     }
 }
-.list {
+.list ,.flex-item{
     list-style: none;
     padding-left: 3rem;
     color: var(--color-headings);
@@ -188,6 +188,9 @@ p{
 .list--tick{
     list-style-image: url('../images/tick.svg');
 }
+
+
+
 .list--tick .list__item{
     padding-left: 1rem;
     margin-bottom: 1rem;
