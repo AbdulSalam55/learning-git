@@ -1,0 +1,97 @@
+@import url("fonts/fonts.css");
+
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+
+:root{
+    font-size: 62.5%;
+    font-family: Poppins;
+    
+    --color-primary: rgb(37,132,255);
+    --color-primary-light: rgb(74, 153, 250);
+    --color-secondary: #00ce15;
+    --color-accent: red;
+    --background--color: #FFFFFF;
+    --background--dark: #333333;
+    --text--white: #f9f9f9;
+}    
+body{
+    margin: 0px;
+    padding: 0rem 1rem;
+    
+    
+}
+
+ul{
+    margin: 0px;
+}
+
+h1{  
+    margin: 0px;
+    font-size: 3rem; 
+}
+
+.logo{
+    color: var(--text--white);
+}
+.navbar-links{
+    
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    align-items: center;
+    
+}
+.navbar{
+    display: flex;
+    padding: 1rem;
+    justify-content: space-between;
+    margin-top: 1rem;
+    align-items: center;
+    background: var(--background--dark);
+}
+
+.text--primary{
+    color: var(--color-primary);
+}
+
+.nav__link{
+    display: inline-block;
+    color: var(--text--white);
+    padding : 0rem 3rem;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bold; 
+    transition: all .3s ease;
+
+}
+.nav__link:hover{
+ 
+    color: var(--color-primary);
+
+}
+.inline{
+    display: inline;
+}
+.cta{
+    font-family: Poppins;
+    font-weight: bold;
+    font-size: 1.3rem;
+    padding: 1rem 1.5rem;
+    border: 0px;
+    border-radius: 2.5rem;
+}
+
+.btn--primary{
+    color: white;             
+    background: var(--color-primary);
+}
+
+.btn--primary:hover{
+    color: white;             
+    background-color: var(--color-primary-light);
+
+}

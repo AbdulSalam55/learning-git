@@ -1,0 +1,87 @@
+:root{
+    --color-primary: #2584ff;
+    --color-secondary: #00d9ff;
+    --color-accent: #ff3400;
+    --color-headings: #1b0760;
+    --color-body: #918ca4;
+    --color-border: #aaa;
+ 
+  
+}
+
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    background-color:black;
+
+    margin: 2rem;
+}
+
+/* Typography */
+
+
+
+
+.project{
+    margin: 5rem 0rem;
+    transition: color .2s ease;
+}
+.project:hover .page-link{
+    color: var(--color-primary);
+}
+
+.dark-theme-font{
+    color: #fff;
+}
+
+
+
+html{
+    font-size: 62.5%;
+}
+body {
+    color: var(--color-body);
+    font-size: 2.4rem;
+    line-height: 1.5;
+    font-family: Inter, Arial, Helvetica, sans-serif;
+}
+
+
+/* links    */
+a{
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

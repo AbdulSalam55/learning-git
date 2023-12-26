@@ -1,0 +1,108 @@
+:root{
+    --color-primary: #0078f3;
+    --color-secondary: #00ce15;
+    --color-accent: red;
+    --background--color: #dddddd;
+}
+
+*{
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Poppins-Bold';
+    src:  url('fonts/Poppins-Bold.woff2') format('woff2'),
+          url('fonts/Poppins-Bold.woff') format('woff');
+  }
+
+  @font-face {
+    font-family: 'Poppins';
+    src:  url('fonts/Poppins-Regular.woff2') format('woff2'),
+          url('fonts/Poppins-Regular.woff') format('woff');
+  }
+
+  
+
+html{
+    font-size: 62.5%;
+}
+
+
+
+body{
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+    
+    background-color: var(--background--color);
+}
+
+.navbar{
+    list-style: none;
+    display: flex;
+    margin:0px;
+    padding: 0px;
+    
+    
+}
+
+
+
+.nav__item{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    width: 182px;
+    height: 101px;
+    font-size: 2rem;
+    transition: all .3s ease;
+}
+
+.nav__item:hover, .focus{
+    background: #f1f1f1;
+    color: var(--color-primary);
+    font-weight: 700;   
+}
+
+.hero{
+    display: flex;
+    justify-content: space-between;
+    background-color: #F1f1f1;
+    flex-direction: row;
+    width: 1600px;
+    height: 975px;
+}
+
+.app--diagram{
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #aaaaaa;
+    width: 415px;
+    height: 440px;
+    border-radius: 45px;
+    padding: 2rem;
+}
+
+
+
+.logo-container{
+    display: inline-flex;
+    justify-content: center;
+    font-family:  Poppins-Bold;
+    align-items: center;         
+    width: 414px;
+    margin-left: 0px;
+    
+}
+
+h1{
+    display: inline-block;
+    font-size: 35px;
+    padding: 0px;
+    margin: 0px;
+}
+.heading--primary{
+    color: var(--color-primary);
+}
